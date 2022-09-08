@@ -8,12 +8,12 @@
 Summary:	The Qt5 Mqtt library
 Summary(pl.UTF-8):	Biblioteka Qt5 Mqtt
 Name:		qt5-%{orgname}
-Version:	5.15.5
+Version:	5.15.6
 Release:	1
 License:	GPL v3+ or commercial
 Group:		Libraries
 Source0:	https://download.qt.io/official_releases/qt/5.15/%{version}/submodules/%{orgname}-everywhere-opensource-src-%{version}.tar.xz
-# Source0-md5:	268fb8847e052323d635559af364328f
+# Source0-md5:	24d1dd8cf2fdf1bfe0f3a10dd88d2214
 URL:		https://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Network-devel >= %{qtbase_ver}
